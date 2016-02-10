@@ -1,4 +1,36 @@
 html {
-  background: url(../img/cork-board.jpg);
-  background-repeat: no-repeat;
+  background: url(../img/cork-board.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.layeredPic {
+  position: relative;
+  margin-top: 30%;
+}
+
+#polaroid {
+  position: relative;
+  left: 25%;
+  top: 10%;
+  width: 49%;
+  height: auto;
+}
+
+#ants {
+  position: absolute;
+  left: 27%;
+  top: 5%;
+  width: 44%;
+  height: auto;
+}
+.redPin {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 47%;
+  top: -14%;
+  -webkit-transform: rotate(45deg);
 }
